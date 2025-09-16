@@ -748,6 +748,21 @@ importlib-metadata = ">=3.6"
 typing_extensions = ">=4.6"
 
 [[package]]
+<<<<<<< HEAD
+=======
+name = "et-xmlfile"
+version = "2.0.0"
+description = "An implementation of lxml.xmlfile for the standard library"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "et_xmlfile-2.0.0-py3-none-any.whl", hash = "sha256:7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"},
+    {file = "et_xmlfile-2.0.0.tar.gz", hash = "sha256:dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54"},
+]
+
+[[package]]
+>>>>>>> f0593b2 (Complete Assignment 1)
 name = "executing"
 version = "2.2.0"
 description = "Get the currently executing AST node of a frame, and other information"
@@ -2027,6 +2042,24 @@ files = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
+name = "openpyxl"
+version = "3.1.5"
+description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "openpyxl-3.1.5-py2.py3-none-any.whl", hash = "sha256:5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"},
+    {file = "openpyxl-3.1.5.tar.gz", hash = "sha256:cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050"},
+]
+
+[package.dependencies]
+et-xmlfile = "*"
+
+[[package]]
+>>>>>>> f0593b2 (Complete Assignment 1)
 name = "packaging"
 version = "25.0"
 description = "Core utilities for Python packages"
@@ -3736,4 +3769,8 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
+<<<<<<< HEAD
 content-hash = "cb3775fe5c915d89f92e2b11e8f17578f094c6550dc9f8f3c5f3b34b7c3a41b0"
+=======
+content-hash = "950caec5494e165ecddede2c1c7656dd76d687dd276c18528c63cc5d8bd1fe7d"
+>>>>>>> f0593b2 (Complete Assignment 1)

@@ -15,7 +15,12 @@ dependencies = [
     "jupyterlab (>=4.4.7,<5.0.0)",
     "jupyterlab-lsp (>=5.2.0,<6.0.0)",
     "python-lsp-server[all] (>=1.13.1,<2.0.0)",
+<<<<<<< HEAD
     "jupyterlab-quarto (>=0.3.5,<0.4.0)"
+=======
+    "jupyterlab-quarto (>=0.3.5,<0.4.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+>>>>>>> f0593b2 (Complete Assignment 1)
 ]
 
 [tool.poetry]
