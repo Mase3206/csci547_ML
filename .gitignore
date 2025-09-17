@@ -3,3 +3,7 @@
 assignments/.ipynb_checkpoints
 /.quarto/
 **/*.quarto_ipynb
+.virtual_documents/
+.lsp_symlink
+.ipynb_checkpoints/
+_output/
