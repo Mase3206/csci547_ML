@@ -1,9 +1,10 @@
 .DS_Store
 */*_LO*
-assignments/.ipynb_checkpoints
+.ipynb_checkpoints/
+assignments/.ipynb_checkpoints/
+examples/.ipynb_checkpoints/
 /.quarto/
 **/*.quarto_ipynb
 .virtual_documents/
 .lsp_symlink
-.ipynb_checkpoints/
 _output/
