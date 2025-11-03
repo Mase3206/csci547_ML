@@ -8,3 +8,4 @@ examples/.ipynb_checkpoints/
 .virtual_documents/
 .lsp_symlink
 _output/
+*.whl

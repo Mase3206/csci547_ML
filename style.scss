@@ -1,0 +1,17 @@
+/*-- scss:rules --*/
+.table-narrow {
+    max-width: calc-size(fit-content, size + 20%);
+    margin: 0 auto;
+}
+
+li {
+    padding-bottom: 0.5em;
+}
+li:last-child {
+    padding-bottom: none;
+}
+
+img.figure-img {
+    max-width: 100%;
+    height: auto;
+}
